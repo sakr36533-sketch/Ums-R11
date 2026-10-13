@@ -1,0 +1,30 @@
+.title h3::before{
+content: "";
+display: inline-block;
+width: 5px;
+height: 25px;
+background-color: rgba(254, 175, 0, 1);
+margin-right: 20px;
+
+}
+
+.sideBar_container{
+    background-color: bisque;
+}
+
+.sideBar_container .ps-sidebar-container .ps-menu-button:hover{
+    background-color: rgba(254, 175, 0, 1);
+    
+    
+}
+
+.home {
+    background-image: linear-gradient(rgba(255, 193, 7, 0.9), rgba(254, 175, 0, 0.8)), url(../src/assets/144d756d814f189bb5147c37b1d80e4c.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
